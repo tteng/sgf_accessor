@@ -82,6 +82,14 @@ class SgfAccessor
     @reg_axis_y = some_value
   end
 
+  def width= w
+    @width = w
+  end
+
+  def height= h
+    @height = h
+  end
+
   private
 
   def get_data_length
